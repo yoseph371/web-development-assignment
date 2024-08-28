@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <li>home</li>
+            <li>news</li>
+            <li>contact</li>
+            <li>about</li>
+        </nav>
+    </header>
+    <aside id="rightside">
+           
+            <li>Account</li>
+            <li>login</li>
+            <li>profile</li>
+    </aside>
+    
+    <link rel="stylesheet" href="style.css">
+    
+        <h1>Registration Form</h1>
+        <form>
+
+        
+        <p>please fill out this form with the required information</p>
+        <fieldset>  
+    
+        
+    
+            <label>Enter your First-Name</label>
+            <input type="text" placeholder="write your first name"></label>
+            <br>
+            <label>Enter your Last Name</label>
+            <input type="text" placeholder="write your last name">
+            <br>
+    
+        
+            <label>Enter your Email Address</label>
+            <input type="email" placeholder="enter email">
+            <br>
+
+        
+            <label>enter your Password</label>
+            <input type="password" placeholder="enter password">
+            <br> 
+        
+    
+</fieldset>
+    
+<fieldset id="account">
+
+<legend>Account-Type</legend>
+<input style="display: inline; width: unset; margin-right: 0.5rem; margin: 0; vertical-align: middle;" type="radio" style="color: white;">      
+<label style="color: white;">Buisness</label>
+
+<input style="display: inline; width: unset; margin-right: 0.5rem; margin: 0; vertical-align: middle;" type="radio" style="color:white;">
+<label style="color: white;">personal</label>
+
+
+
+
+
+
+</fieldset>
+<fieldset id="input">
+
+    
+            
+    <label for="upload">upload a profile picture</label>
+    <input type="file" id="upload" name="ageuploader">
+    <br>
+    <label for="age" >input your age (in years)</label>
+    <input type="number" id="age" name="file">
+    <br>
+    <label for="profile">how did you hear about us</label>
+    <select id="profile" name="infouploader"><option value="">(select one)</option>
+    <option value="1"><a href="www.youtube.com">youtube</a></option>
+    <option value="2"><a href="www.forum.com">forum</a></option>
+    <option value="3"><a href="www.news.com">news</a></option>
+    <option value="4"><a href="www.google.com">other</a></option>
+    </select>
+    <br>
+    
+    <img id="img1" src="https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.jpg?s=1024x1024&w=is&k=20&c=K8yBJVB-TtpPF1O2zOhVlzXECDxJsadlRrLf4gXXNkk=">
+    <br>
+    <label for="bio">provide bio:</label>
+    <textarea id="bio" name="biouploader" rows="3" cols="30" placeholder="i like coding on the beach"></textarea>
+    </fieldset>
+    <input type="checkbox" name="check" style="display: inline; margin-right: 0.5rem; margin: 0; vertical-align: middle;">
+    <label>I accept the <a href="">terms and conditions</a></label>
+
+    <input type="submit" value="submit" name="submit"> 
+</form>
+    
+        
+<footer id="footer">
+    <hr>
+        <p>copyright @ 2024</p>
+    
+    
+</footer>
+</body>
+</html>

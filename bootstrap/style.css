@@ -1,0 +1,21 @@
+section article{
+    height: 100%;
+    font-size: 30px;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    background-image: url("./crispdm.png");
+    height: 100%;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#nav-bar{
+    width: 100%;
+}
